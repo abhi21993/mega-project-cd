@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: www.shackverse.co
+    - host: www.testingkeeda.xyz
       http:
         paths:
           - path: /
@@ -22,5 +22,5 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - www.shackverse.co
+        - www.testingkeeda.xyz
       secretName: shackverse-co-tls
